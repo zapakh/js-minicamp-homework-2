@@ -1,0 +1,45 @@
+for loop
+
+A for loop is syntactic sugar for a while loop that keeps an initializing and
+incrementing statement together with the test so they don't get lost.
+
+&& || !
+
+Boolean operators take Boolean arguments and return Boolean values.  These are
+just like functions except the syntax is easier on the eyes.  People sometimes
+use truth tables to describe Boolean operations, so here is one.
+
+    x  |  y  || x && y | x || y |  !x  |
+    F  |  F  ||   F    |   F    |  T   |
+    F  |  T  ||   F    |   T    |  T   |
+    T  |  F  ||   F    |   T    |  F   |
+    T  |  T  ||   T    |   T    |  F   |
+
+Array
+
+An Array is a structure that aggregates multiple values so that they can be
+handled using a single name, or variable.  You can get at the individual
+elements of an Array using array subscript notation.  Also, Arrays are objects
+that come with some convenient properties and methods, such as .length
+and .indexOf.  These are listed on MDN somewhere.
+
+git
+
+git is a version control system that has almost entirely supplanted an older
+system cleverly named Subversion.  The history of the text maintained in a git
+repository (which is usually source code) is represented as a directed acyclic
+graph of commits.  As is typical in a dag, this history has a lot of branching
+and merging.  In version control, these indicate paths of mostly-independent
+development, possibly under the care of entirely different people.  The
+ability to branch and remerge makes git extremely useful in collaborative
+software development, and a considerably useful tool for organization even
+while working solo.
+
+Github
+
+Github is a site that wraps a collection of git repositories, enhancing them
+with issue tracking and discussion and generally making it very easy to copy
+(which they call "fork") a project and perform git operations on it.  The
+Github notions of forks and pull requests are somewhat analogous to the
+simpler branch and merge operations of git, but they operate at the social
+level rather than the level of a single repository.
