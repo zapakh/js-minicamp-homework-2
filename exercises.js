@@ -27,12 +27,7 @@ function isInteger(num) {
 }
 
 function fizzBuzz(num) {
-  // Ah, fizzbuzz.  My old nemesis.
-  var ret = '';
-  if (num % 3 == 0) ret += 'fizz';
-  if (num % 5 == 0) ret += 'buzz';
-  if (ret.length == 0) return num;
-  else return ret;
+  return (num % 3 ? '' : 'fizz') + (num % 5 ? '' : 'buzz') || num;
 }
 
 function isPrime(num) {
